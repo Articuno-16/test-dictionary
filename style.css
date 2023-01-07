@@ -1,0 +1,88 @@
+@import url(./common.css);
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: navy;
+}
+
+nav input {
+    border: none;
+    border-radius: 4px;
+}
+
+#content > div {
+    background-color: snow;
+}
+
+#search {
+    flex-grow: 7;
+}
+
+#submit {
+    background-color: cornflowerblue;
+    color: white;
+    flex-grow: 1;
+}
+
+#submit:hover {
+    background-color: rgb(113, 163, 255);
+    cursor: pointer;
+}
+
+.content-major {
+    border-bottom: 1px solid gray;
+}
+
+.content-major h1 {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 3.5rem;
+}
+
+.example {
+    font-size: 0.75rem;
+}
+
+#more {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: underline;
+    color: navy;
+    font-weight: bold;
+}
+
+#more:hover {
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+p.synonyms {
+    font-size: 0.8rem;
+}
+
+.lg-p-40 {
+    padding: 40px;
+}
+
+@media screen and (max-width: 739px) {
+    .main-width{
+        width: 100%;
+    }
+
+    .sm-p-20 {
+        padding: 20px;
+    }
+
+    #content {
+        padding: 0px;
+    }
+}

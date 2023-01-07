@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Dictionary</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="flex flex-center lg-p-40 sm-p-20">
+        <div class="main-width flex flex-spaceBtw">
+            <input type="text" id="search" placeholder="Enter to Search" class="p-16">
+            <input type="button" value="Search" id="submit" class="p-16 ml-20">
+        </div>
+    </nav>
+
+    <div id="content" class="flex flex-center pl-40 pr-40">
+        <div class="main-width p-20">
+            <div class="content-major pb-20">
+                <div class="flex flex-middle mb-20">
+                    <h1>Welcome</h1>
+                </div>
+                <span class="text-gray">Please use the search bar to get the meaning of the words you want.</span>
+            </div>
+
+            <div class="content-meanings p-20">
+            </div>
+
+            <div class="flex flex-center">
+                <button id="more" style="display: none;" class="p-10">See more</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
